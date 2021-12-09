@@ -117,7 +117,7 @@ $SPARK_HOME/bin/spark-submit --master k8s://<cluster-api and port> --deploy-mode
 local:///opt/spark/examples/src/main/python/pi.py
 ```
 
-The deployment command above will deploy the Docker image, using the ServiceAccount created above. It will spawn 5 executor instances and execute an example application, [pi.py](https://raw.githubusercontent.com/apache/spark/master/examples/src/main/python/pi.py), that is present on the base PySpark installation.
+The deployment command above will deploy the Docker image, using the ServiceAccount created above. It will spawn 5 executor instances and execute an example application, [pi.py](https://raw.githubusercontent.com/apache/spark/master/examples/src/main/python/pi.py), that is present on the base PySpark installation. Additional [configuration options](https://spark.apache.org/docs/latest/running-on-kubernetes.html#configuration) are available to run in a specific namespace, label Pods, etc.
 
 ### Results
 
