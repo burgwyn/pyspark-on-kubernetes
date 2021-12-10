@@ -127,7 +127,6 @@ Running the command `kubectl get pods` yields
 
 ```shell
 NAME                               READY   STATUS    RESTARTS   AGE
-nginx-6799fc88d8-9jfpv             1/1     Running   3          22h
 pythonpi-63b19c7d78a9f598-exec-1   1/1     Running   0          7s
 pythonpi-63b19c7d78a9f598-exec-2   1/1     Running   0          6s
 pythonpi-63b19c7d78a9f598-exec-3   1/1     Running   0          6s
